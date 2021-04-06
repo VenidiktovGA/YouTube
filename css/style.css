@@ -72,6 +72,8 @@ body {
   background-color: transparent;
   padding: 0;
   border: none;
+  outline: none;
+  width: 100%;
 }
 
 .search-button {
