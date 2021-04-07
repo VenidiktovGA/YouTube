@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <title>Youtobe</title>
@@ -60,7 +65,179 @@
         </a>
       </header>
 
-      <nav class="site-nav">nav</nav>
+      <nav class="site-nav">
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="20px" height="19px">
+                <use xlink:href="img/icons.svg#home"></use>
+              </svg>
+              <span>Home</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="16px" height="21px">
+                <use xlink:href="img/icons.svg#trends"></use>
+              </svg>
+              <span>Trending</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="18px" height="18px">
+                <use xlink:href="img/icons.svg#subscription"></use>
+              </svg>
+              <span>Subscriptions</span></a
+            >
+          </li>
+        </ul>
+
+        <ul class="nav nav-slave">
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="20px" height="16px">
+                <use xlink:href="img/icons.svg#library"></use>
+              </svg>
+              <span>Library</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="20px" height="18px">
+                <use xlink:href="img/icons.svg#history"></use>
+              </svg>
+              <span>History</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="18px" height="18px">
+                <use xlink:href="img/icons.svg#watch"></use>
+              </svg>
+              <span>Watch later</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="19px" height="18px">
+                <use xlink:href="img/icons.svg#star"></use>
+              </svg>
+              <span>Favourites</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="18px" height="17px">
+                <use xlink:href="img/icons.svg#liked"></use>
+              </svg>
+              <span>Liked videos</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="18px" height="19px">
+                <use xlink:href="img/icons.svg#music"></use>
+              </svg>
+              <span>Music</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="22px" height="16px">
+                <use xlink:href="img/icons.svg#games"></use>
+              </svg>
+              <span>Games</span></a
+            >
+          </li>
+          <!--Должен быть блоком который показывает еще пункты-->
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="14px" height="8px">
+                <use xlink:href="img/icons.svg#arrowDown"></use>
+              </svg>
+              <span>Show more</span></a
+            >
+          </li>
+        </ul>
+
+        <div class="subscriptions">
+          <div class="subscriptions-title">Subscriptions</div>
+          <ul class="subscriptions-nav">
+            <li class="sub-items">
+              <a href="" class="sub-link">
+                <img
+                  src="img/subscription/Gussie.png"
+                  alt="Photo: Gussie Singleton"
+                  class="sub-img"
+                />
+                <span>Gussie Singleton</span></a
+              >
+            </li>
+            <li class="sub-items">
+              <a href="#" class="sub-link">
+                <img
+                  src="img/subscription/Nora.png"
+                  alt="Photo: Nora Francis"
+                  class="sub-img"
+                />
+                <span>Nora Francis</span></a
+              >
+            </li>
+            <li class="sub-items">
+              <a href="#" class="sub-link">
+                <img
+                  src="img/subscription/Belle.png"
+                  alt="Photo: Belle Briggs"
+                  class="sub-img"
+                />
+                <span>Belle Briggs</span></a
+              >
+            </li>
+            <li class="sub-items">
+              <a href="#" class="sub-link">
+                <img
+                  src="img/subscription/Eunice.png"
+                  alt="Photo: Eunice Cortez"
+                  class="sub-img"
+                />
+                <span>Eunice Cortez</span></a
+              >
+            </li>
+            <li class="sub-items">
+              <a href="#" class="sub-link">
+                <img
+                  src="img/subscription/Emma.png"
+                  alt="Photo: Emma Hanson"
+                  class="sub-img"
+                />
+                <span>Emma Hanson</span></a
+              >
+            </li>
+            <li class="sub-items">
+              <a href="#" class="sub-link">
+                <img
+                  src="img/subscription/Leah.png"
+                  alt="Photo: Leah Berry"
+                  class="sub-img"
+                />
+                <span>Leah Berry</span></a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <ul class="nav nav-settings">
+          <li class="nav-item">
+            <a href="#" class="nav-link"
+              ><svg class="icon" width="19px" height="20px">
+                <use xlink:href="img/icons.svg#setting"></use>
+              </svg>
+              <span>Setting</span></a
+            >
+          </li>
+        </ul>
+      </nav>
 
       <main class="site-main">main</main>
     </div>
